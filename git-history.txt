@@ -1,0 +1,179 @@
+    1  sudo apt-get install software-properties-common
+    2  sudo add-apt-repository ppa:git-core/ppa -y
+    3  sudo apt-get update
+    4  sudo apt-get install git -y
+    5  git --version 
+    6  git config --global user.name Hitesh
+    7  git config --global user.email htiesh@gmail.com
+    8  git config --global help.autocorrect 1
+    9  git config --global core.editor vim
+   10  git config --list
+   11  git config --global user.name Hitesh
+   12  git config --global user.email hitesh@gmail.com
+   13  git config --global help.autocorrect 1
+   14  git config --global core.editor vim
+   15  git config --list
+   16  logout
+   17  mkdir projectA
+   18  ls -l
+   19  cd projectA
+   20  ls -l
+   21  touch projectA
+   22  ls -l
+   23  cd /
+   24  mkdir mycode
+   25  cd mycode
+   26  touch a.java b.java 1.txt 2.xml
+   27  pwd
+   28  ls -l
+   29  gitinit
+   30  git init
+   31  git version
+   32  ls -l
+   33  mkdir mycode#
+   34  mkdir mycode
+   35  ls -l
+   36  rm mycode#
+   37  rm r mycode#
+   38  rm rd mycode#
+   39  cd mycode
+   40  git init
+   41  ls -l
+   42  touch 1.java 2.java
+   43  ls -l
+   44  vi 1.java
+   45  git config --global user.name
+   46  git config --global user.name rizzobrit
+   47  git config --global user.email rizzobrit@gmail.com
+   48  git config --global user.name
+   49  git config --list
+   50  git status
+   51  git log
+   52  git add .
+   53  git status
+   54  git commit -m "v1"
+   55  git status
+   56  git log
+   57  git log --oneline
+   58  ls -l
+   59  vi 1.java
+   60  tocuh 1.xml
+   61  touch 1.xml 2.xml
+   62  ls -l
+   63  git stats
+   64  git add .
+   65  git stats
+   66  git commit -m "v2"
+   67  git log --oneline
+   68  ls -l
+   69  vi 1.java
+   70  rm 2.xml
+   71  git status
+   72  git add .
+   73  git status
+   74  ls -l
+   75  vi 1.xml
+   76  git status
+   77  git add .
+   78  git status
+   79  git commit -m "V3"
+   80  git log
+   81  git log --oneline
+   82  git show 6b9306aa6a863f85008aa5422a67c1f5b0db2da2
+   83  ls -al
+   84  git log --oneline
+   85  git show 0c10e64
+   86  git show 3684689
+   87  git log --oneline
+   88  git diff 6b9306a 3684689
+   89  git status
+   90  ls -l
+   91  touch sam.java
+   92  git stuatus
+   93  git add .
+   94  git stuatus
+   95  git restore --staged sam.java
+   96  git status
+   97  git add .
+   98  git commit -m "V4"
+   99  git log --oneline
+  100  git show e4b13ca
+  101  git log
+  102  ls -l
+  103  rm sam.java
+  104  ls -l
+  105  git log
+  106  git add
+  107  git add .
+  108  git commit -m"v5"
+  109  git log
+  110  git show 0a2c5a2730b0c1c3d1a54d79d7a9a4bdd04cd65e
+  111  git status
+  112  touch .gitignore
+  113  ls -l
+  114  ls -al
+  115  git status
+  116  vi .gitignore
+  117  git status
+  118  git add .
+  119  git commit -m "gitignore"
+  120  cat .gitignore
+  121  ls -l
+  122  touch 1.log
+  123  ls -l
+  124  git status
+  125  git log
+  126  git tag -a v1.1 
+  127  git log
+  128  git log --online
+  129  git log --oneline
+  130  git tag -a v1.1 0c10e64 -m "Version1.1"
+  131  git log --oneline
+  132  git log
+  133  git log --oneline
+  134  git tag -a v1.2 -m"version1.2"
+  135  git log --oneline
+  136  git tag -a v1.2 3684689 -m"version1.2"
+  137  git v1.1
+  138  git show v1.1
+  139  git show v1.2
+  140  git remote -v
+  141  git remote add origin https://github.com/rizzobrit/mycode.git
+  142  git push -u origin master
+  143  git remote -v
+  144  git push -u origin master
+  145  Orange2020@
+  146  git push -u origin master
+  147  git remote -v
+  148  git log --oneline
+  149  git push -u origin master --tags
+  150  history
+  151  cd ..
+  152  rm -r mycode
+  153  ls -l
+  154  rm -r mycode#
+  155  rm -r projectA
+  156  ls -l 
+  157  git clone https://github.com/rizzobrit/mycode.git
+  158  ls -l
+  159  cd mycode
+  160  git log --oneline
+  161  cd ..
+  162  git clone https://github.com/lerndevops/labs.git
+  163  git log --oneline
+  164  cd mycode
+  165  git log --oneline
+  166  git fetch
+  167  cat 1.java
+  168  git fetch
+  169  git log --oneline
+  170  git pull
+  171  git log --oneline
+  172  cat 1.java
+  173  history
+  174  history -history.txt
+  175  history -t history.txt
+  176  history -l history.txt
+  177  history.txt
+  178  ls -l
+  179  history > git-history.txt
