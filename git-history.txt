@@ -1,4 +1,4 @@
-    version1.1
+    version1.2
     1  sudo apt-get install software-properties-common
     2  sudo add-apt-repository ppa:git-core/ppa -y
     3  sudo apt-get update
